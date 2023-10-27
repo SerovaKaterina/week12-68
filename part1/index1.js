@@ -6,10 +6,9 @@ const resultOne = document.querySelector('#resultOne');
 
 const makeOne = () => {
 	const num1 = 5;
-	const num2 = 10;
-	//Ваш код
+	const num2 = 1;
+    resultOne.textContent = num1 + num2;
 };
-
 buttonOne.addEventListener('click', makeOne); //Слушатель уже добавлен
 
 //Задание 2
@@ -21,10 +20,10 @@ const resultTwo = document.querySelector('#resultTwo');
 const makeTwo = () => {
 	const num1 = 20;
 	const num2 = 7;
-	//Ваш код
+	resultTwo.textContent = num1 - num2;
 };
 
-//Добавьте слушатель события
+buttonTwo.addEventListener('click', makeTwo);//Добавьте слушатель события
 
 //Задание 3
 //Найдите произведение num1 и num2. Добавьте слушатель события на кнопку "Задание 3" и выведите результат на экран.
@@ -35,10 +34,10 @@ const resultThree = document.querySelector('#resultThree');
 const makeThree = () => {
 	const num1 = 8;
 	const num2 = 4;
-	//Ваш код
+	resultThree.textContent = num1 * num2;
 };
 
-//Добавьте слушатель события
+buttonThree.addEventListener('click', makeThree);//Добавьте слушатель события
 
 //Задание 4
 //Найдите результат операции деления num1 на num2. Добавьте слушатель события на кнопку "Задание 4" и выведите результат на экран.
@@ -49,10 +48,10 @@ const resultFour = document.querySelector('#resultFour');
 const makeFour = () => {
 	const num1 = 16;
 	const num2 = 2;
-	//Ваш код
+	resultFour.textContent = num1 / num2;//Ваш код
 };
 
-//Добавьте слушатель события
+buttonFour.addEventListener('click', makeFour );//Добавьте слушатель события
 
 //Задание 5
 //Возведите число num в степень power. Добавьте слушатель события на кнопку "Задание 5" и выведите результат на экран.
@@ -64,10 +63,10 @@ const resultFive = document.querySelector('#resultFive');
 const makeFive = () => {
 	const num = 3;
 	const power = 4;
-	//Ваш код
+	resultFive.textContent = Math.pow(num, power);
 };
 
-//Добавьте слушатель события
+buttonFive.addEventListener('click', makeFive);//Добавьте слушатель события
 
 //Задание 6
 //Найдите результат от деления num1 на num2. Добавьте слушатель события на кнопку "Задание 6" и выведите результат на экран.
@@ -78,10 +77,10 @@ const resultSix = document.querySelector('#resultSix');
 const makeSix = () => {
 	const num1 = 20;
 	const num2 = 5;
-	//Ваш код
+	resultSix.textContent = num1 / num2;
 };
 
-//Добавьте слушатель события
+buttonSix.addEventListener('click', makeSix);//Добавьте слушатель события
 
 //Задание 7
 //Найдите остаток от деления num1 на num2. Добавьте слушатель события на кнопку "Задание 7" и выведите результат на экран.
@@ -92,10 +91,10 @@ const resultSeven = document.querySelector('#resultSeven');
 const makeSeven = () => {
 	const num1 = 25;
 	const num2 = 7;
-	//Ваш код
+	resultSeven.textContent = num1 % num2;
 };
 
-//Добавьте слушатель события
+buttonSeven.addEventListener('click', makeSeven);//Добавьте слушатель события
 
 //Задание 8
 //Найдите остаток от деления num1 на 10. Добавьте слушатель события на кнопку "Задание 8" и выведите результат на экран.
@@ -105,10 +104,10 @@ const resultEight = document.querySelector('#resultEight');
 
 const makeEight = () => {
 	const num1 = 123;
-	//Ваш код
+	resultEight.textContent = num1 % 10;
 };
 
-//Добавьте слушатель события
+buttonEight.addEventListener('click', makeEight);//Добавьте слушатель события
 
 //Задание 9
 //Найдите остаток от деления num1 на 100. Добавьте слушатель события на кнопку "Задание 9" и выведите результат на экран.
@@ -118,10 +117,10 @@ const resultNine = document.querySelector('#resultNine');
 
 const makeNine = () => {
 	const num1 = 4567;
-	//Ваш код
+	resultNine.textContent = num1 % 100;
 };
 
-//Добавьте слушатель события
+buttonNine.addEventListener('click', makeNine);//Добавьте слушатель события
 
 //Задание 10
 //Найдите символ по индексу 2 в строке "Hello". Добавьте слушатель события на кнопку "Задание 10" и выведите результат на экран.
@@ -131,10 +130,10 @@ const resultTen = document.querySelector('#resultTen');
 
 const makeTen = () => {
 	const str = 'Hello';
-	//Ваш код
+	resultTen.textContent = str[2];
 };
 
-//Добавьте слушатель события
+buttonTen.addEventListener('click', makeTen);//Добавьте слушатель события
 
 //Задание 11
 //Выведите на экран результат операции 5 взятое по модулю 2. Добавьте слушатель события на кнопку "Задание 11" и выведите результат на экран.
