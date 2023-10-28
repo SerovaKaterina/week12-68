@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(223, 195, 249);
+}
+.maincontainer {
+  width: 1200px;
+  padding-top: 200px;
+  margin: 0 auto;
+}
+.text {
+  margin: 0 auto;
+  width: 900px;
+}
