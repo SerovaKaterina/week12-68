@@ -142,10 +142,10 @@ const buttonEleven = document.querySelector('.b-11');
 const resultEleven = document.querySelector('#resultEleven');
 
 const makeEleven = () => {
-	//Ваш код
+	resultEleven.textContent = 5 % 2;
 };
 
-//Добавьте слушатель события
+buttonEleven.addEventListener('click', makeEleven);//Добавьте слушатель события
 
 //Задание 12
 //Объедините строки str1 и str2. Добавьте слушатель события на кнопку "Задание 12" и выведите результат на экран.
@@ -156,10 +156,10 @@ const resultTwelve = document.querySelector('#resultTwelve');
 const makeTwelve = () => {
 	const str1 = 'Hello, ';
 	const str2 = 'World!';
-	//Ваш код
+	resultTwelve.textContent = str1 + str2;
 };
 
-//Добавьте слушатель события
+buttonTwelve.addEventListener('click', makeTwelve);//Добавьте слушатель события
 
 //Задание 13
 //Найдите длину строки str. Добавьте слушатель события на кнопку "Задание 13" и выведите результат на экран.
@@ -169,10 +169,10 @@ const resultThirteen = document.querySelector('#resultThirteen');
 
 const makeThirteen = () => {
 	const str = 'JavaScript';
-	//Ваш код
+	resultThirteen.textContent = str.length;
 };
 
-//Добавьте слушатель события
+buttonThirteen.addEventListener('click', makeThirteen);//Добавьте слушатель события
 
 //Задание 14
 //Приведите строку str к нижнему регистру. Добавьте слушатель события на кнопку "Задание 14" и выведите результат на экран.
