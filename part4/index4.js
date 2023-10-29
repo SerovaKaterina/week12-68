@@ -15,7 +15,7 @@ function changeComment() {
   resultComment.innerHTML = yourComment.value.replace(/(xxx|viagra)/gi, "***"); // заменяем недопустимые слова
 }
 function changeImage() {
-  document.querySelector(".yourfoto").src = yourFoto.value; 
+  document.querySelector(".yourfoto").src = yourFoto.value;
 }
 
 function seeResult() {
