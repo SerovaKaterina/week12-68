@@ -7,15 +7,15 @@ const resultName = document.querySelector(".fullname");
 const resultComment = document.querySelector(".yourcomment");
 
 function changeName() {
-  let capital = fullName.value.charAt(0).toUpperCase();
-  let rest = fullName.value.slice(1).toLowerCase();
+  let capital = fullName.value.charAt(0).toUpperCase(); // преобразовываем имя с заглавной буквы
+  let rest = fullName.value.slice(1).toLowerCase(); // преобразовываем имя
   resultName.innerHTML = capital + rest;
 }
 function changeComment() {
-  resultComment.innerHTML = yourComment.value.replace(/(xxx|viagra)/gi, "***");
+  resultComment.innerHTML = yourComment.value.replace(/(xxx|viagra)/gi, "***"); // заменяем недопустимые слова
 }
 function changeImage() {
-  document.querySelector(".yourfoto").src = yourFoto.value;
+  document.querySelector(".yourfoto").src = yourFoto.value; 
 }
 
 function seeResult() {
