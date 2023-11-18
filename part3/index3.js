@@ -1,8 +1,7 @@
 const btn = document.querySelector('.button');
-const btnMore = document.getElementById('more');
+const more = document.getElementById('more');
 const result = document.getElementById('result');
 const info = document.querySelector('.info');
-
 function calculateBMI () {
 const weight = document.getElementById('weight').value; //извлекаем значение введенное в инпут
 const height = document.getElementById('height').value; //извлекаем значение введенное в инпут
