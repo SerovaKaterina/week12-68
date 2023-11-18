@@ -274,7 +274,7 @@ const buttonTwentyOne = document.querySelector('.b-21');
 const resultTwentyOne = document.querySelector('#resultTwentyOne');
 
 const makeTwentyOne = () => {
-	resultTwentyOne.textContent = Math.round(Math.random() * 10);
+	resultTwentyOne.textContent = Math.round(Math.floor(Math.random() * 10) + 1);
 };
 
 buttonTwentyOne.addEventListener('click', makeTwentyOne);//Добавьте слушатель события
