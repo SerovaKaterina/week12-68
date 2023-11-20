@@ -4,15 +4,17 @@ const result = document.getElementById('result');
 const info = document.querySelector('.info');
 let weightInput = document.getElementById('weight');
 let heightInput = document.getElementById('height');
+
 //Добавляем функцию проверки, что поля заполнены и если нет, отключаем кнопку
 function updateButtonState() {
 	btn.disabled = !weightInput.value || !heightInput.value;
-
 }
 updateButtonState();
 //Добавляем обработчики событий для апдейта состояния кнопки при изменении полей
 weightInput.addEventListener('input', updateButtonState);
 heightInput.addEventListener('input', updateButtonState);
+
+//Вычисляем ИМТ
 function calculateBMI () {
     let w = +weightInput.value; //преобразовываем строку в число
     let h = +heightInput.value; //преобразовываем строку в число
